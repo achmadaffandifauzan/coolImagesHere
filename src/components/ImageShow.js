@@ -1,5 +1,7 @@
-function ImageShow() {
-  return <div>ImageShow</div>;
+function ImageShow({ image }) {
+  return (
+    <img width="300px" src={image.urls.full} />
+  );
 }
 
 export default ImageShow;
